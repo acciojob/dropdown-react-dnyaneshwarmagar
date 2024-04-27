@@ -272,7 +272,7 @@ function App() {
       </select>
       <div id="state-title">{states[selectedState].name}</div>
       <div id="state-description">{states[selectedState].description}</div>
-      <div id="city-name">
+      <div id="city-title">
         {states[selectedState].city[selectedCity].name}
       </div>
       <div id="city-description">
